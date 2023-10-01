@@ -9,5 +9,8 @@ translate coursera's subtitle by using baidu's translate api
 不知道是网络的原因还是代码问题,翻译出的文件会出现重复翻译的内容
 假期会申请 bing 的 api 进行测试
 
+提示:
+使用前需申请 baidu 翻译 api 的账号,并填充到`appid`和`appkey`中,如果翻译其他语种可以更改`from_lang`和`to_lang`
+
 使用方法:
 `python translate_by_BaiduAPI.py original_subtitle.vtt new_subtitle.vtt`
