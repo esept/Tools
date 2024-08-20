@@ -10,8 +10,8 @@ import json
 from hashlib import md5
 import time
 
-appid = '20230629001728692'
-appkey = 'iLwZFq64OOUKBKhxjo8Q'
+appid = '20...'
+appkey = 'iL...'
 
 from_lang = 'zh'
 to_lang = 'en'
