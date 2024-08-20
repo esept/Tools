@@ -14,3 +14,20 @@ translate coursera's subtitle by using baidu's translate api
 
 使用方法:
 `python translate_by_BaiduAPI.py original_subtitle.vtt new_subtitle.vtt`
+
+# Translate paddleOCR's content
+## 文件夹属性图
+- main 母文件夹
+|--- output 输出文件夹
+|--- work 代码文件夹
+|--- data 原图片
+## 快速使用
+建立以上文件夹, 将原图放到 data 文件夹内, 将 go.py 放到 work 文件夹
+在 main 文件夹内按照顺序执行以下命令
+1. `cd work` 进入文件夹
+2. `clear; python go.py` 执行代码
+## 注意
+文本翻译慢是因为翻译请求速度限制, 可以考虑修改第 92 行附近 `time.sleep(1)` , 尝试将 1 改小
+## 百度翻译api的使用
+将 13,14 行附近的 `appid, appkey` 改成自己的
+应该有一个图片提示
