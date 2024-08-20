@@ -9,7 +9,7 @@ import random
 import json
 from hashlib import md5
 import time
-
+# 使用前阅读 Readme 中的 Translate paddleOCR's content
 appid = '20...'
 appkey = 'iL...'
 
